@@ -1,8 +1,21 @@
+/* Keyframes for new animation */
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
 .App {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #75b3bd;
+  color: #333; /* Text color */
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: fadeIn 1s ease-in-out forwards; /* Apply new animation */
 }
+
